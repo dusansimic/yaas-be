@@ -1,0 +1,1 @@
+!function(e){"use strict";var t,r=e.document,c=r.querySelector('[src*="yaas.js"]'),o=c.getAttribute("code"),n=c.getAttribute("path");t={c:o,u:e.location.href,r:r.referrer,w:e.innerWidth},fetch(n+"/event",{method:"POST",mode:"cors",cache:"no-cache",headers:{"Content-Type":"text/plain"},redirect:"error",body:JSON.stringify(t)}).catch(e=>console.error)}(window);

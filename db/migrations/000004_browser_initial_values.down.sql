@@ -1,0 +1,1 @@
+DELETE FROM browser WHERE name IN ('Chrome', 'Firefox', 'Safari', 'Chromium', 'Opera', 'WebKit', 'Internet Explorer');

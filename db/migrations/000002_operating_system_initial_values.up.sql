@@ -1,0 +1,1 @@
+INSERT INTO operatingsystem (name) VALUES ('macOS'), ('Windows'), ('Linux'), ('Android'), ('iOS'), ('Other');

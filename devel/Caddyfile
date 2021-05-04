@@ -1,0 +1,10 @@
+locahost:3000 {
+	handle_path /api/* {
+		rewrite * {path}
+		reverse_proxy http://localhost:3000
+	}
+	handle_path /* {
+		rewrite * {path}
+		reverse_proxy http://localhost:3001
+	}
+}

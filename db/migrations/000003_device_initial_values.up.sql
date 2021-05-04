@@ -1,0 +1,1 @@
+INSERT INTO device (name) VALUES ('Desktop'), ('Laptop'), ('Tablet'), ('Mobile'), ('Other');
